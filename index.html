@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .header, .footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .header a, .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .content img {
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+        .content .caption {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#stories">Stories</a>
+        <a href="#images">Images</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="content">
+        <!-- Repeat this block for each image -->
+        <div>
+            <img src="image1.jpg" alt="Landscape 1">
+            <div class="caption">Caption for image 1</div>
+        </div>
+        <!-- End of block -->
+    </div>
+    <div class="footer">
+        <div>© 2022 Your Name</div>
+        <div>Contact: your-email@example.com</div>
+        <div>
+            <a href="https://facebook.com/yourprofile">Facebook</a>
+            <a href="https://twitter.com/yourprofile">Twitter</a>
+            <a href="https://instagram.com/yourprofile">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
